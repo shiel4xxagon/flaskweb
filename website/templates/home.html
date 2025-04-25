@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <h1>Welcome to Home Page</h1>
+    <a href="{{ url_for('views.about') }}">Go to About</a> | 
+    <a href="{{ url_for('views.contact') }}">Contact Us</a>
+{% endblock %}
+
+
+
